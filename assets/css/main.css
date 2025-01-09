@@ -42,9 +42,7 @@ body {
 }
 
 .Video_Button:hover {
-	background: #0800ff;
-	border-color: #000000;
-	border-width: 2px;
+	background: #f200ff;
 	
 	color: #ffffff;
 	font-weight: bold;
