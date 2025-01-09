@@ -1,0 +1,16 @@
+.Video_Button {
+	background: #a200ff;
+	border-color: #a200ff;
+	
+	color: #fff;
+	font-weight: bold;
+}
+
+.Video_Button:hover {
+	background: #3300ff;
+	border-color: #000000;
+	border-width: 2px;
+	
+	color: #ffffff;
+	font-weight: bold;
+  }
