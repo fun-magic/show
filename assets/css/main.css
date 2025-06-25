@@ -100,7 +100,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f3f6fa;
+		background-color: purple;
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -169,14 +170,14 @@ input, select, textarea {
 		letter-spacing: 0.025em;
 	}
     #Video_small_Info{
-		background-color: rgb(160, 160, 160);
+		background-color: rgb(250, 86, 234);
 		width: 100%;
 		height: 180px;
 		overflow: auto;
 		color: #000;
 	}
 	#Show_small_Info{
-		background-color:  rgb(160, 160, 160);
+		background-color: rgb(250, 86, 234);
 		width: 100%;
 		height: 180px;
 		overflow: auto;
@@ -1913,6 +1914,9 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;
+			width: 250px;
+			height: 150px;
+			resize: horizontal;
 		}
 
 			.image.featured img {
