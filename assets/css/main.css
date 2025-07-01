@@ -117,8 +117,6 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #000000;
-		font-family: 'Birthstone', cursive;
-		font-size: 24px;
 		font-weight: 500;
 		letter-spacing: 0.025em;
 		line-height: 1.75em;
@@ -152,6 +150,7 @@ input, select, textarea {
 		line-height: 1.75em;
 		margin-bottom: 1em;
 		text-transform: uppercase;
+		
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -160,10 +159,12 @@ input, select, textarea {
 			border: 0;
 		}
 
-	h2 {
-		font-size: 1.5em;
-		letter-spacing: 0.1em;
-	}
+		h2 {
+		
+			letter-spacing: 0.1em;
+			font-family: 'Birthstone', cursive;
+			font-size: 60px;
+		}
 
 	h3 {
 		font-size: 1.15em;
@@ -2610,7 +2611,7 @@ input, select, textarea {
 				#banner .inner header h2 {
 					border-bottom: solid 2px;
 					border-top: solid 2px;
-					font-size: 2.5em;
+					/* font-size: 2.5em; */
 					font-weight: 900;
 					letter-spacing: 0.2em;
 					margin: 0;
@@ -3194,7 +3195,9 @@ input, select, textarea {
 			h2 {
 				font-size: 1.25em;
 				letter-spacing: 0.1em;
+				
 			}
+			
 
 			h3 {
 				font-size: 1em;
