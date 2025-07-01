@@ -16,4 +16,59 @@
 
 <body>
     <a href="index.html"><img width="200px" src="images/Magic_Logo-removebg-preview.png"></a>
+
+
+    <style>
+        .centered-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            /* optional */
+        }
+
+        .clickable-container {
+            position: relative;
+            /* display: inline-block; */
+            text-align: center;
+            width: 50%;
+            /* Image takes 50% of the screen width */
+            margin: 0 auto;
+            /* Centers the container horizontally */
+        }
+
+        .clickable-container img {
+            width: 100%;
+            /* Adjust as needed */
+            height: auto;
+            /* Adjust as needed */
+        }
+
+        .clickable-container a {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            /* Adjust text color */
+            font-size: 71px;
+            /* Adjust font size */
+            text-decoration: none;
+            /* Remove underline */
+            font-weight: bold;
+            /* Make text bold */
+        }
+
+        .clickable-container a:hover {
+            text-decoration: underline;
+            /* Add underline on hover */
+        }
+    </style>
+    <div class="clickable-container">
+        <div>
+            <img src="images/Background for book button.jpg" class="centered-img" alt="Background Image">
+
+        </div>
+        <a href="https://forms.gle/YTvzaEYffne7dVxP9" target="_blank">Book Here</a>
+    </div>
 </body>
