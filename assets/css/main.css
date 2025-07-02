@@ -150,6 +150,7 @@ input, select, textarea {
 		line-height: 1.75em;
 		margin-bottom: 1em;
 		text-transform: uppercase;
+		font-family: 'Birthstone', cursive;
 		
 	}
 
@@ -162,14 +163,14 @@ input, select, textarea {
 		h2 {
 		
 			letter-spacing: 0.1em;
-			font-family: 'Birthstone', cursive;
 			font-size: 60px;
 		}
 
 	h3 {
-		font-size: 1.15em;
+		font-size: 26px;
 		letter-spacing: 0.025em;
 	}
+
     #Video_small_Info{
 		background-color: rgb(250, 86, 234);
 		width: 100%;
@@ -2214,8 +2215,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #ff006a;
+			border-color: #ff006a;
 			color: #fff !important;
 		}
 
@@ -2224,8 +2225,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: #ff0000 !important;
+				border-color: #ff0000 !important;
 			}
 
 		input[type="button"].fit,
@@ -2394,8 +2395,9 @@ input, select, textarea {
 
 					#header nav ul li a {
 						border: solid 1px transparent;
-						color: inherit;
-						display: inline-block;
+						background: #ff006a;
+			            border-color: #ff006a;
+			            color: #fff !important;
 						line-height: 1em;
 						padding: 0.6em 0.75em;
 						text-decoration: none;
