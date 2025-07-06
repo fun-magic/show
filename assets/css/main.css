@@ -171,6 +171,13 @@ input, select, textarea {
 		letter-spacing: 0.025em;
 	}
 
+	.circular-image {
+		width: 150px; /* Set the width */
+		height: 150px; /* Set the height */
+		border-radius: 50%; /* Makes the image circular */
+		object-fit: cover; /* Ensures the image fits within the circle */
+	  }
+
     #Video_small_Info{
 		background-color: rgb(250, 86, 234);
 		width: 100%;
