@@ -199,6 +199,10 @@ input, select, textarea {
 		overflow: auto;
 		color: #000;
 	}
+	#About_Orest{
+		font-family: 'Birthstone', cursive;
+		font-size: 30px;
+	}
 	#Sign_In{
 		color: #bb00ff;
 	}
