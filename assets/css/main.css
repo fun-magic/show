@@ -2219,7 +2219,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #ff006a;
+			background: #a200ff!important;
 			border-color: #ff006a;
 			color: #fff !important;
 		}
@@ -2406,7 +2406,6 @@ input, select, textarea {
 						padding: 0.6em 0.75em;
 						text-decoration: none;
 					}
-
 					#header nav ul li input[type="button"],
 					#header nav ul li input[type="submit"],
 					#header nav ul li input[type="reset"],
