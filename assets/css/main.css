@@ -49,7 +49,17 @@ body {
 	font-weight: bold;
   }
 
- BookButton {
+ .blue-button {
+  background-color: #007bff !important;
+  color: #fff !important;
+  transition: background 0.2s !important;
+}
+.blue-button:hover {
+  background-color: #d900ff !important;
+  color: #fff !important;
+}
+
+ .BookButton {
   display: flex;
   justify-content: center;
   margin: 30px 0;
@@ -76,6 +86,7 @@ body {
   margin: 60px 0; /* Increased top and bottom space */
   padding: 0;
   list-style: none;
+
 }
 .BookButton a:hover {
   background: #005fa3;
@@ -90,6 +101,28 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+.big-colorful-text {
+  display: block;
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.3;
+  background: linear-gradient(90deg, #ff00ff, #00eaff, #39ff14, #ffe600, #ff5e00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.big-white-birthstone {
+  font-family: 'Birthstone', cursive;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
